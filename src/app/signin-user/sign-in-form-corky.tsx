@@ -132,7 +132,7 @@ export default function SignInForm() {
 
       <div className="flex gap-10 items-center justify-center mt-6">
         <Link
-          href={routes.dashboard}
+          href={routes.paymaster}
           className="font-semibold text-gray-700 transition-colors hover:text-blue"
         >
           홈으로
