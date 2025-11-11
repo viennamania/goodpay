@@ -59,7 +59,7 @@ export default function SignInForm() {
             <Input
               type="text"
               size="xl"
-              label="아이디(이메일)"
+              label="아이디"
               placeholder="아이디를 입력해주세요"
               color="info"
               className="[&>label>span]:font-bold"
