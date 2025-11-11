@@ -1,3 +1,5 @@
+import { paymentGatewayAtom } from "@/store/checkout";
+
 export const routes = {
   eCommerce: {
     dashboard: '/ecommerce',
@@ -141,6 +143,8 @@ export const routes = {
 
 
   dashboard: '/dashboard',
+
+  paymaster: '/paymaster',
 
 
   user: {

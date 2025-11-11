@@ -132,27 +132,20 @@ export default function SignInForm() {
 
       <div className="flex gap-10 items-center justify-center mt-6">
         <Link
-          href={routes.home}
+          href={routes.dashboard}
           className="font-semibold text-gray-700 transition-colors hover:text-blue"
         >
           홈으로
         </Link>
+        {/*
         <Link
           href={routes.signUpUser}
           className="font-semibold text-gray-700 transition-colors hover:text-blue"
         >
           회원가입
         </Link>
+        */}
       </div>
-
-
-
-      <div className='mt-10 flex flex-col mb-5 items-start justify-center '>
-        <p>user1: user3@gmail.com / Abcd1234 </p>
-        <p>user2: user4@gmail.com / Abcd1234 </p>
-        <p>corky: corky@devunlimit.com</p>
-      </div>
-
 
     </>
   );

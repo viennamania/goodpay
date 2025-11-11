@@ -6,7 +6,7 @@ import isEqual from 'lodash/isEqual';
 import { pagesOptions } from './pages-options';
 
 
-import { getOne, getAll, checkOne } from '@/lib/api/shop';
+///import { getOne, getAll, checkOne } from '@/lib/api/shop';
 
 
 
@@ -72,7 +72,7 @@ export const authOptions: NextAuthOptions = {
 
 
 
-
+        /*
         const user = {
           id: 'admin',
           password: '1234',
@@ -90,6 +90,7 @@ export const authOptions: NextAuthOptions = {
           return user as any;
 
         }
+        */
 
         
         try {
@@ -102,6 +103,7 @@ export const authOptions: NextAuthOptions = {
           //console.log('data=', data);
           */
 
+          /*
           const results = await checkOne(
             credentials?.id as string,
             credentials?.password as string,
@@ -126,6 +128,7 @@ export const authOptions: NextAuthOptions = {
             return user as any;
             
           }
+          */
 
 
         } catch (error) {

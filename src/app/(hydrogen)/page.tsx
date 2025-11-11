@@ -1,6 +1,9 @@
 //import FileDashboard from '@/app/shared/file/dashboard';
 
-import Dashboard from '@/app/shared-corky/dashboard';
+//import Dashboard from '@/app/shared-corky/dashboard';
+
+import Dashboard from '@/app/shared-goodpay/dashboard';
+
 
 import { metaObject } from '@/config/site.config';
 
@@ -18,7 +21,7 @@ import {
 
 
 export const metadata = {
-  ...metaObject(),
+  ...metaObject('Dashboard'),
 };
 
 export default function DashboardPage() {

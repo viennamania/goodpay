@@ -122,7 +122,9 @@ function DropdownMenu(
           onClick={() => {
             //signOut();
 
-            signOut({ callbackUrl: '/' });
+            //////signOut({ callbackUrl: '/' });
+
+            signOut({ callbackUrl: '/signin-user' });
 
           }}
         >
